@@ -15,9 +15,9 @@
   ],
   "resources": [
     "file://../steering/reviewer-standards.md",
-    "file://../steering/agent-descriptions/plan-reviewer-agent-description.md",
-    "file://../steering/prompts/plan-reviewer-agent-prompt.md"
+    "file://../agent-descriptions/plan-reviewer-agent-description.md",
+    "file://../prompts/plan-reviewer-agent-prompt.md"
   ],
-  "prompt": "../steering/prompts/plan-reviewer-agent-prompt.md",
+  "prompt": "../prompts/plan-reviewer-agent-prompt.md",
   "model": "claude-sonnet-4"
 }

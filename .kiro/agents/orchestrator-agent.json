@@ -11,9 +11,9 @@
   ],
   "resources": [
     "file://../steering/orchestrator-standards.md",
-    "file://../steering/agent-descriptions/orchestrator-agent-description.md",
-    "file://../steering/prompts/orchestrator-agent-prompt.md"
+    "file://../agent-descriptions/orchestrator-agent-description.md",
+    "file://../prompts/orchestrator-agent-prompt.md"
   ],
-  "prompt": "../steering/prompts/orchestrator-agent-prompt.md",
+  "prompt": "../prompts/orchestrator-agent-prompt.md",
   "model": "claude-sonnet-4"
 }

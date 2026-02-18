@@ -1,7 +1,7 @@
 {
   "name": "frontend-agent",
-  "description": "../steering/agent-descriptions/frontend-agent-description.md",
-  "prompt": "../steering/prompts/frontend-agent-prompt.md",
+  "description": "../agent-descriptions/frontend-agent-description.md",
+  "prompt": "../prompts/frontend-agent-prompt.md",
   "mcpServers": {
     "Context7": {
       "command": "npx",
@@ -42,9 +42,9 @@
   ],
   "resources": [
     "file://../steering/frontend-standards.md",
-    "file://../steering/agent-descriptions/frontend-agent-description.md",
-    "file://../steering/prompts/frontend-agent-prompt.md",
-    "skill://../skills/frontend-skills.md"
+    "file://../agent-descriptions/frontend-agent-description.md",
+    "file://../prompts/frontend-agent-prompt.md",
+    "skill://../steering/skills/frontend-skills.md"
   ],
   "hooks": {},
   "toolsSettings": {},
