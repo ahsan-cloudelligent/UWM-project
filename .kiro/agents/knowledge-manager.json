@@ -1,0 +1,30 @@
+{
+  "name": "knowledge-manager",
+  "description": "The person will be responsible for managing all the resouces i.e document diagrams and generated document.",
+  "prompt": "../prompts/knowledge-manager-agent-prompt.md",
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }
+  },
+  "tools": [
+    "*"
+  ],
+  "toolAliases": {},
+  "allowedTools": [],
+  "resources": [],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": false,
+  "model": null
+}

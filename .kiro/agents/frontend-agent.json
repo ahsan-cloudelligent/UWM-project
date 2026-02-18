@@ -1,0 +1,51 @@
+{
+  "name": "frontend-agent",
+  "description": "../steering/agent-descriptions/frontend-agent-description.md",
+  "prompt": "../steering/prompts/frontend-agent-prompt.md",
+  "mcpServers": {
+    "Context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-7f0a103a-a01a-4215-aa54-55f55aa4f0b7"
+      ],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp"
+      ]
+    }
+  },
+  "tools": [
+    "read",
+    "write",
+    "shell",
+    "grep",
+    "glob"
+  ],
+  "toolAliases": {},
+  "allowedTools": [
+    "read",
+    "write",
+    "shell",
+    "grep",
+    "glob"
+  ],
+  "resources": [
+    "file://../steering/frontend-standards.md",
+    "file://../steering/agent-descriptions/frontend-agent-description.md",
+    "file://../steering/prompts/frontend-agent-prompt.md",
+    "skill://../skills/frontend-skills.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": true,
+  "model": "claude-sonnet-4"
+}

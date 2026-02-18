@@ -1,0 +1,17 @@
+{
+  "name": "cloudelligent-orchestrator-agent",
+  "description": "../steering/agent-descriptions/orchestrator-agent-description.md",
+  "tools": [
+    "use_subagent"
+  ],
+  "allowedTools": [
+    "use_subagent"
+  ],
+  "resources": [
+    "file://../steering/orchestrator-standards.md",
+    "file://../steering/agent-descriptions/orchestrator-agent-description.md",
+    "file://../steering/prompts/orchestrator-agent-prompt.md"
+  ],
+  "prompt": "../steering/prompts/orchestrator-agent-prompt.md",
+  "model": "claude-sonnet-4"
+}
