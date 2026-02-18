@@ -1,6 +1,6 @@
 {
-  "name": "cloudelligent-orchestrator-agent",
-  "description": "../steering/agent-descriptions/orchestrator-agent-description.md",
+  "name": "cloudelligent-orchestrator",
+  "description": "Solution Architect and Manager - Handles requirements gathering, system architecture, technology decisions, and planning document creation.",
   "tools": [
     "use_subagent",
     "knowledge"
@@ -11,7 +11,6 @@
   ],
   "resources": [
     "file://../steering/orchestrator-standards.md",
-    "file://../agent-descriptions/orchestrator-agent-description.md",
     "file://../prompts/orchestrator-agent-prompt.md"
   ],
   "prompt": "../prompts/orchestrator-agent-prompt.md",

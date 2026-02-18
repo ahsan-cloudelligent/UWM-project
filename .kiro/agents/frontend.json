@@ -1,6 +1,6 @@
 {
-  "name": "frontend-agent",
-  "description": "../agent-descriptions/frontend-agent-description.md",
+  "name": "frontend",
+  "description": "Frontend Specialist - Handles UI/UX implementation, component design, state management, and frontend architecture.",
   "prompt": "../prompts/frontend-agent-prompt.md",
   "mcpServers": {
     "Context7": {
@@ -42,7 +42,6 @@
   ],
   "resources": [
     "file://../steering/frontend-standards.md",
-    "file://../agent-descriptions/frontend-agent-description.md",
     "file://../prompts/frontend-agent-prompt.md",
     "skill://../steering/skills/frontend-skills.md"
   ],

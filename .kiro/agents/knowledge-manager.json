@@ -1,6 +1,6 @@
 {
   "name": "knowledge-manager",
-  "description": "The person will be responsible for managing all the resouces i.e document diagrams and generated document.",
+  "description": "Knowledge Manager - Manages project resources including documents, diagrams, and generated documentation.",
   "prompt": "../prompts/knowledge-manager-agent-prompt.md",
   "mcpServers": {
     "playwright": {
@@ -15,7 +15,9 @@
   ],
   "toolAliases": {},
   "allowedTools": [],
-  "resources": [],
+  "resources": [
+    "file://../steering/knowledge-manager-standards.md"
+  ],
   "hooks": {},
   "toolsSettings": {},
   "useLegacyMcpJson": false,
