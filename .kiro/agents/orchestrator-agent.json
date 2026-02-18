@@ -2,10 +2,12 @@
   "name": "cloudelligent-orchestrator-agent",
   "description": "../steering/agent-descriptions/orchestrator-agent-description.md",
   "tools": [
-    "use_subagent"
+    "use_subagent",
+    "knowledge"
   ],
   "allowedTools": [
-    "use_subagent"
+    "use_subagent",
+    "knowledge"
   ],
   "resources": [
     "file://../steering/orchestrator-standards.md",

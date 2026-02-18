@@ -4,12 +4,14 @@
   "tools": [
     "fs_read",
     "grep",
-    "glob"
+    "glob",
+    "knowledge"
   ],
   "allowedTools": [
     "fs_read",
     "grep",
-    "glob"
+    "glob",
+    "knowledge"
   ],
   "resources": [
     "file://../steering/reviewer-standards.md",
