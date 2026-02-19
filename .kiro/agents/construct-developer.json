@@ -1,0 +1,31 @@
+{
+  "name": "construct-developer",
+  "description": "CDK Constructs Developer - Creates reusable AWS CDK constructs that encode organizational best practices for infrastructure as code.",
+  "prompt": "file://construct-developer/prompt.md",
+  "mcpServers": {},
+  "tools": [
+    "read",
+    "write",
+    "shell",
+    "grep",
+    "glob",
+    "knowledge"
+  ],
+  "toolAliases": {},
+  "allowedTools": [
+    "read",
+    "write",
+    "shell",
+    "grep",
+    "glob",
+    "knowledge"
+  ],
+  "resources": [
+    "file://.kiro/steering/cdk-constructs-standards.md",
+    "skill://.kiro/skills/cdk-constructs-skills.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": true,
+  "model": "claude-sonnet-4"
+}

@@ -43,7 +43,7 @@
   "resources": [
     "file://../steering/frontend-standards.md",
     "file://../prompts/frontend-agent-prompt.md",
-    "skill://../steering/skills/frontend-skills.md"
+    "skill://../skills/frontend-skills.md"
   ],
   "hooks": {},
   "toolsSettings": {},
