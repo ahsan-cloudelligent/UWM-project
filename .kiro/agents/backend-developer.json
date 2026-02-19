@@ -1,0 +1,30 @@
+{
+  "name": "backend-developer",
+  "description": "Backend Developer - Handles traditional backend services, APIs, databases, and server-side architecture using Express.js, containers, and RDS.",
+  "prompt": "file://backend-developer/prompt.md",
+  "mcpServers": {},
+  "tools": [
+    "read",
+    "write",
+    "shell",
+    "grep",
+    "glob",
+    "knowledge"
+  ],
+  "toolAliases": {},
+  "allowedTools": [
+    "read",
+    "write",
+    "shell",
+    "grep",
+    "glob",
+    "knowledge"
+  ],
+  "resources": [
+    "file://.kiro/steering/backend-standards.md",
+    "skill://.kiro/skills/backend-skills.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": true
+}
